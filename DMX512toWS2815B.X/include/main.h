@@ -34,8 +34,8 @@
 #define DEBUG_PRINT
 
 // クロック設定
-//#define OSC_CLK_32MHZ // 32MHz, (INTOSC 8MHz * x4 PLL)
-#define OSC_CLK_16MHZ // 16MHz, (INTOSC 16MHz)
+#define OSC_CLK_32MHZ // 32MHz, (INTOSC 8MHz * x4 PLL)
+//#define OSC_CLK_16MHZ // 16MHz, (INTOSC 16MHz)
 //#define OSC_CLK_8MHZ // 8MHz, (INTOSC 8MHz)
 
 // 動作制御スイッチ

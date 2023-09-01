@@ -17,6 +17,7 @@
       <itemPath>include/tmr4.h</itemPath>
       <itemPath>include/tmr6.h</itemPath>
       <itemPath>include/wdt.h</itemPath>
+      <itemPath>include/clc.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -38,6 +39,7 @@
       <itemPath>src/tmr4.c</itemPath>
       <itemPath>src/tmr6.c</itemPath>
       <itemPath>src/wdt.c</itemPath>
+      <itemPath>src/clc.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

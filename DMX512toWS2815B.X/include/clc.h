@@ -26,42 +26,4 @@
  * Revision history: 
  */
 
-#pragma once
-
-#include <xc.h> // include processor files - each processor file is guarded.  
-#include "main.h"
-#include "wdt.h"
-#include "main.h"
-#include "osc.h"
-#include "pps.h"
-#include "pin.h"
-//#include "ext_int.h"
-//#include "fvr.h"
-//#include "dac.h"
-//#include "fpmc.h"
-#include "tmr0.h"
-#include "tmr1.h"
-#include "tmr2.h"
-#include "tmr4.h"
-#include "tmr6.h"
-//#include "pwm.h" // PWMはまとめて初期化
-//#include "pwm3.h"
-//#include "pwm4.h"
-//#include "ccp1.h"
-//#include "ccp2.h"
-//#include "opamp1.h"
-//#include "opamp2.h"
-#include "eusart.h"
-//#include "ssp1.h"
-
-// delayマクロ用
-#ifdef OSC_CLK_32MHZ
-#define _XTAL_FREQ 32000000
-#elif defined OSC_CLK_16MHZ
-#define _XTAL_FREQ 16000000
-#elif defined OSC_CLK_8MHZ
-#define _XTAL_FREQ 8000000
-#endif
-
-void SYSTEM_Initialize(void);
-
+#pragma

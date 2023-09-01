@@ -46,19 +46,19 @@ void SYSTEM_Initialize(void)
     WDT_Initialze();
     PPS_Initialize();
     PIN_Initialize();
-    EXTINT_Initialize(); // 未使用
+    //EXTINT_Initialize(); // 未使用
     TMR0_Initialize(); // 内部インターバルタイマー
     //TMR2_Initialize(); // モーター用PWM
-    PWM_Initialize(); // PWM3,4の初期化 (TMRの初期化も同時に行う)
-    FVR_Initialize(); // DAC用基準電圧
+    //PWM_Initialize(); // PWM3,4の初期化 (TMRの初期化も同時に行う)
+    //FVR_Initialize(); // DAC用基準電圧
     TMR6_Initialize(); // DAC更新用
-    DAC_Initialize(); // 音声再生用
+    //DAC_Initialize(); // 音声再生用
     //TMR1_Initialize(); // Capture用
-    CCP1_Initialize(); // CCP1 IR信号Capture 初期化 (モードはccp1.hで設定)
+    //CCP1_Initialize(); // CCP1 IR信号Capture 初期化 (モードはccp1.hで設定)
     //TMR4_Initialize(); // LED用PWM
-    CCP2_Initialize(); // CCP2 PWM 初期化 (モードはccp2.hで設定)
-    OPAMP1_Initialize(); // OPAMP1 初期化
-    OPAMP2_Initialize(); // OPAMP2 初期化
+    //CCP2_Initialize(); // CCP2 PWM 初期化 (モードはccp2.hで設定)
+    //OPAMP1_Initialize(); // OPAMP1 初期化
+    //OPAMP2_Initialize(); // OPAMP2 初期化
     EUSART_Initialize(); // EUSART(UART) 初期化
-    SSP1_Initialize(); // MSSP1 初期化 (モードはssp1.hで設定)
+    //SSP1_Initialize(); // MSSP1 初期化 (モードはssp1.hで設定)
 }
